@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Pop pins:100,200,300,400,500,600,700,800,900');
 
+.tabel
+{
+    width: 100%;
+    background: linear-gradient(235deg,#0548ff,#010615,#00bcd4);
+    padding: 0;
+    height: 150px;
+
+}
 .container
 *{
     margin: 0;
