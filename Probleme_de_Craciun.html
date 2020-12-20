@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"
+<html lang="en">
 <head>
     <div class="tabel">
         <div class="container">
@@ -20,26 +20,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <title>Minecraft Code</title>
-    <link rel="stylesheet" href="CSS/style1.css">
+    <link rel="stylesheet" href="style1.css">
 </head>
 <body>
     <header>
-        <a href="#" class="logo"><img src="logo.png"</a>
+        <a href="#" class="logo"><img src="logo.png"></a>
         <div class="toggle"><img src="toggle.png"></div>
     </header>
     <div class="banner">
         <div class="content">
             <h2>Probleme de<span>Cracin</span></h2>
             <p>O aventura...</p>
-            <a href="#" class="play"><img src="images/play.png">Watch</a>
+            <a href="#" class="play" onclick="toggle();"><img src="images/play.png">Watch</a>
             
             <div class="slide">
                 <ul class="sci">
-                    <li><a href="#"<img src="images/facebook.png"></a></li>
-                    <li><a href="#"<img src="images/steam.png"></a></li>
-                    <li><a href="#"<img src="images/instagram.png"></a></li>
+                    <li><a href="#"><img src="images/facebook.png"></a></li>
+                    <li><a href="https://steamcommunity.com/id/Creepyarea/"><img src="images/steam.png"></a></li>
+                    <li><a href="#"><img src="images/instagram.png"></a></li>
                 </ul>
             </div>
         </div>
     </div>
+    <div class="videoclip">
+        <video src="video/v3.mp4" controls="true"></video>
+        <img src="images/close.png" class="close">
+    </div>
+    <script type="text/javascrpt">
+        function toggle(){
+            var videoclip333 = document.querySelector('.videoclip');
+            var video = document.querySelector('.video');
+            videoclip.classList.toggle('active')
+            video.currentTime = 0;
+            video.pause();
+        }
+        @media (max-width: 991px)
+        </script>
 </body>
+</html>
