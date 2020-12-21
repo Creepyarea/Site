@@ -34,26 +34,26 @@
             <a href="#" class="play" onclick="toggle();"><img src="images/play.png">Watch</a>
             <div class="slide">
                 <ul class="sci">
-                    <li><a href="#"><img src="images/facebook.png"></a></li>
-                    <li><a href="https://steamcommunity.com/id/Creepyarea/"><img src="images/steam.png"></a></li>
-                    <li><a href="#"><img src="images/instagram.png"></a></li>
+                    <li><a href="#"><img src="images/facebook.pn"></a></li>
+                    <li><a href="https://steamcommunity.com/id/Creepyarea/"><img src="images/steam.pn"></a></li>
+                    <li><a href="#"><img src="images/instagram.pn"></a></li>
                 </ul>
             </div>
         </div>
     </div>
     <div class="videoclip">
         <video src="video/v2.mp4" controls="true"></video>
-        <img src="images/close.png" class="close">
+        <img src="images/close.png" class="close" onclick="toggle();">
     </div>
-    <script type="text/javascrpt">
+    <script type="text/javascript">
         function toggle(){
-            var videoclip333 = document.querySelector('.videoclip');
+            var videoclip = document.querySelector('.videoclip');
             var video = document.querySelector('.video');
             videoclip.classList.toggle('active')
             video.currentTime = 0;
             video.pause();
         }
-        @media (max-width: 991px)
+        
         </script>
 </body>
 </html>

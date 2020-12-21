@@ -6,8 +6,8 @@
     height: 150px;
 
 }
-.container
-*{
+*
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -22,18 +22,19 @@
 body
 {
 display: flex;
-justify-content: center;
+justify-content: flex-start;
 flex-wrap: wrap;
-min-height: 100vh;
+min-height: 50vh;
 background: #010615
 }
-.video
+.video3
 {
   position: absolute;
   top: 130px;
   left: 0;
   width: 100%;
-  justify-content: center;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
   padding: 40px 100px;
   z-index: 1000;
@@ -41,14 +42,14 @@ background: #010615
 .video .logo
 {
   max-width: 120px;
-  cursor: pointer;
 }
 .video .toggle
 {
   max-width: 60px;
+  cursor: pointer;
 }
 .video .logo img,
-.video .toggle
+.video .toggle img
 {
   max-width: 100%;
 }
@@ -112,8 +113,9 @@ background: #010615
 {
   position: absolute;
   top: 50%;
-  transform:translateY(-50%);
+  transform: translateY(-50%);
   right: 20px;
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -130,7 +132,7 @@ background: #010615
 .sci li a img
 {
   filter: invert(0);
-  transform: scale(0.02);
+  transform: scale(0.06);
 }
 .slide
 {
@@ -178,17 +180,17 @@ background: #010615
 }
 .videoclip video
 {
-  max-width: 900px;
+  max-width: 9000px;
   outline: none;
 }
 .videoclip .close
 {
   position: absolute;
-  top: 30px;
-  right: 30px;
+  top: 50px;
+  right: 50px;
   cursor: pointer;
   filter: invert(1);
-  max-width: 32px;
+  max-width: 150px;
 }
 @media (max-width: 991px)
 {
