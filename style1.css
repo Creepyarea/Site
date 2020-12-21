@@ -6,7 +6,7 @@
     height: 150px;
 
 }
-.containe
+.container
 *{
     margin: 0;
     padding: 0;
@@ -22,7 +22,7 @@
 body
 {
 display: flex;
-justify-content: flex-start;
+justify-cont3ent: flex-start;
 flex-wrap: wrap;
 min-height: 50vh;
 background: #010615
@@ -59,7 +59,7 @@ background: #010615
    width: 100%;
    min-height: 100vh;
    padding: 0 100px;
-   background: url(images/bg.png);
+   background: url(images/bg1.png);
    background-position: center;
    background-size: cover;
    display: flex;
@@ -101,8 +101,8 @@ background: #010615
   text-transform: uppercase;
   font-weight: 500;
   text-decoration: none;
-  letter-spacing: 2px;
-  font-size: 1.2em;
+  letter-spacing: 3px;
+  font-size: 2.5em;
 }
 .play img
 {
@@ -217,11 +217,5 @@ background: #010615
   .banner .content
   {
     font-size: 1em;
-  }
-  .container img
-  {
-    float: left;
-    width: 150px;
-    height: auto;
   }
 }
