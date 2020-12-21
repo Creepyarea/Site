@@ -25,7 +25,7 @@
 <body>
     <div class="video">
         <a href="#" class="logo"><img src="logo.png"></a>
-        <div class="toggle"><img src="toggle.png"></div>
+        <div class="toggle"><img src="images/toggle.png"></div>
     </div>
     <div class="banner">
         <div class="content">
@@ -33,12 +33,7 @@
             <p>O aventura...</p>
             <a href="#" class="play" onclick="toggle();"><img src="images/play.png">Watch</a>
             <div class="slide"></div>
-            <ul class="sci">
-                <li><a href="#"><img src="images/facebook.pn"></a></li>
-                <li><a href="#"><img src="images/steam.pn"></a></li>
-                <li><a href="#"><img src="images/instagram.pn"></a></li>
-            </ul>
-            </div>
+           </div>
         </div>
     </div>
     <div class="videoclip">
@@ -48,8 +43,8 @@
     <script type="text/javascript">
     function toggle(){
         var videoclip = document.querySelector('.videoclip');
-        var video = document.querySelector('.video');
-        videoclip.classList.toggle('active')
+        var video = document.querySelector('video');
+        videoclip.classList.toggle('active');
         video.currentTime = 0;
         video.pause();
     }

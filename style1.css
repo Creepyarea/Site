@@ -6,8 +6,8 @@
     height: 150px;
 
 }
-*
-{
+.containe
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -27,7 +27,7 @@ flex-wrap: wrap;
 min-height: 50vh;
 background: #010615
 }
-.video3
+.video
 {
   position: absolute;
   top: 130px;
@@ -36,7 +36,7 @@ background: #010615
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 40px 100px;
+  padding: 40px 10px;
   z-index: 1000;
 }
 .video .logo
@@ -107,41 +107,37 @@ background: #010615
 .play img
 {
   margin-right: 10px;
-  max-width: 50px;
-}
-.sci 
-{
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  right: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  scale: 2px;
-}
-.sci li
-{
-  list-style: none;
-}
-.sci li a 
-{
-  text-decoration: none;
-}
-.sci li a img
-{
-  filter: invert(0);
-  transform: scale(0.06);
+  max-width: 100px;
 }
 .slide
 {
   position: absolute;
-  bottom: 50px;
-  left: calc(50% - 250px / 2);
-  width: 250px;
-  height: 150px;
-  background: url(images/bg1.png);
+  left: calc(50% 250px / 2);
+  width: 300px;
+  height: 200px;
+  background: url(images/slide1.png);
+  background-size: cover;
+  cursor: pointer;
+  animation: animate 25s linear infinite;
+}
+.slide1
+{
+  position: absolute;
+  left: calc(50% 250px / 2);
+  width: 300px;
+  height: 200px;
+  background: url(images/slide2.png);
+  background-size: cover;
+  cursor: pointer;
+  animation: animate 25s linear infinite;
+}
+.slide2
+{
+  position: absolute;
+  left: calc(50% 250px / 2);
+  width: 300px;
+  height: 200px;
+  background: url(images/slide3.png);
   background-size: cover;
   cursor: pointer;
   animation: animate 25s linear infinite;
@@ -211,5 +207,21 @@ background: #010615
   .banner
   {
     padding: 100px 50px;
+  }
+  .banner .content
+  {
+    font-weight: 400;
+    font-size: 2em;
+    letter-spacing: 0.05em;
+  }
+  .banner .content
+  {
+    font-size: 1em;
+  }
+  .container img
+  {
+    float: left;
+    width: 150px;
+    height: auto;
   }
 }
