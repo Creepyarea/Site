@@ -9,13 +9,14 @@
 .container
 *{
     margin: 0;
-    padding: 0;
+    padding: 40;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
 .container img
 {
   float: left;
+<<<<<<< Updated upstream
   width: 150px;
   height: auto;
   margin-top: -40px;
@@ -92,6 +93,11 @@
   width: 100%;
   height: 100%;
   transition-delay: 0s;
+=======
+  width: 120px;
+  height: auto;
+  padding-left: 5px;
+>>>>>>> Stashed changes
 }
 body
 {
