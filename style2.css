@@ -108,7 +108,11 @@ justify-content: flex-start;
 flex-wrap: wrap;
 min-height: 50vh;
 background: #010615;
-background-image: url(images/bg.png);
+background-image: url(images/bg2.png);
+}
+.bg3
+{
+  background-image: url(images/bg3.png);
 }
 .video
 {
