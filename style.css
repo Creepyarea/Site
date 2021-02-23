@@ -1,7 +1,7 @@
 .tabel
 {
     width: 100%;
-    background: linear-gradient(235deg,#8708c2,#010615,#7602b9);
+    background: linear-gradient(235deg,#7500fa,#010615,#0105e7);
     padding: 0;
     height: 150px;
 
@@ -233,7 +233,7 @@ overflow-x: hidden;
 }
 footer
 {
-  background: rgb(80, 0, 133);
+  background: rgb(35, 0, 133);
   height: 150px;
   width: 100vw;
   font-family: "Open Sans";
