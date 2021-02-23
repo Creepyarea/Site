@@ -116,7 +116,7 @@ background: #010615;
 background-image: url(images/bg3.png);
 background-size: cover;
 background-repeat: no-repeat;
-overflow: hidden;
+overflow-x: hidden;
 }
 .video
 {
@@ -309,4 +309,18 @@ overflow: hidden;
   {
     font-size: 1em;
   }
+}
+::-webkit-scrollbar
+{
+    width: 20px;
+}
+::-webkit-scrollbar-track
+{
+    border: 5px solid #232943;
+    box-shadow:  inset 0 0 2.5px 2px rgba(0,0,0,0.5);
+}
+::-webkit-scrollbar-thumb
+{
+    background: linear-gradient(45deg,#af4f00e5,#000000, #ff0000);
+    border-radius: 5px;
 }
