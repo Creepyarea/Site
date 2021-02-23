@@ -328,6 +328,7 @@ footer
   font-family: "Open Sans";
   color: #fff;
   margin-top: auto;
+  margin-bottom: 0cm;
 }
 .footer-content
 {
@@ -338,10 +339,10 @@ footer
 }
 .footer-content h3
 {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-weight: 40;
   text-transform: capitalize;
-  line-height: 1em;
+  line-height: 1.5em;
 }
 .socials
 {
