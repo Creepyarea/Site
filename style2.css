@@ -109,10 +109,9 @@ flex-wrap: wrap;
 min-height: 50vh;
 background: #010615;
 background-image: url(images/bg2.png);
-}
-.bg3
-{
-  background-image: url(images/bg3.png);
+background-size: cover;
+background-repeat: no-repeat;
+overflow: hidden;
 }
 .video
 {
