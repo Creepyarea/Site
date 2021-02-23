@@ -231,3 +231,73 @@ overflow-x: hidden;
     background: linear-gradient(45deg,#04fff2,#000000, #2600ff);
     border-radius: 5px;
 }
+footer
+{
+  background: rgb(15, 50, 78);
+  height: 150px;
+  width: 100vw;
+  font-family: "Open Sans";
+  color: #fff;
+  margin-top: auto;
+}
+.footer-content
+{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+.footer-content h3
+{
+  font-size: 1.5rem;
+  font-weight: 40;
+  text-transform: capitalize;
+  line-height: 1em;
+}
+.socials
+{
+  list-style: none;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+
+}
+.socials li
+{
+  margin: 0 10px;
+}
+.socials a
+{
+  text-decoration: none;
+  color: #fff;
+}
+.socials a i
+{
+  font-size: 1.1rem;
+  transition: color .4s ease;
+}
+.socials a:hover i
+{
+  color: rgb(5, 1, 255);
+}
+
+.footer-bottom
+{
+  background: #000;
+  width: 100vw;
+  padding: 20px 0;
+  text-align: center;
+}
+.footer-bottom p
+{
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+.footer-bottom span
+{
+  text-transform: uppercase;
+  opacity: .4;
+  font-weight: 200;
+}
