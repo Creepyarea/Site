@@ -1,7 +1,4 @@
-.head
-{
-  position: relative;
-}
+
 .tabel
 {
     width: 100%;
@@ -13,7 +10,7 @@
 .container
 *{
     margin: 0;
-    padding: 0;
+    padding: 40;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
@@ -201,34 +198,12 @@ min-height: 100vh;
   margin-right: 10px;
   max-width: 100px;
 }
-.slide
-{
-  position: absolute;
-  left: calc(50% 250px / 2);
-  width: 300px;
-  height: 200px;
-  background: url(images/slide1.png);
-  background-size: cover;
-  cursor: pointer;
-  animation: animate 25s linear infinite;
-}
-.slide1
-{
-  position: absolute;
-  left: calc(50% 250px / 2);
-  width: 300px;
-  height: 200px;
-  background: url(images/slide2.png);
-  background-size: cover;
-  cursor: pointer;
-  animation: animate 25s linear infinite;
-}
 .slide2
 {
   position: absolute;
   left: calc(50% 250px / 2);
-  width: 300px;
-  height: 200px;
+  width: 420px;
+  height: 260px;
   background: url(images/slide3.png);
   background-size: cover;
   cursor: pointer;
@@ -328,54 +303,12 @@ min-height: 100vh;
 footer
 {
   background: rgb(78, 33, 15);
-  height: 150px;
+  height: 0px;
   width: 100vw;
   font-family: "Open Sans";
   color: #fff;
   margin-top: auto;
 }
-.footer-content
-{
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-
-}
-.footer-content h3
-{
-  font-size: 1.5rem;
-  font-weight: 40;
-  text-transform: capitalize;
-  line-height: 1em;
-}
-.socials
-{
-  list-style: none;
-  display:flex;
-  align-items: center;
-  justify-content: center;
-  margin: 1rem 0 3rem 0;
-
-}
-.socials li
-{
-  margin: 0 10px;
-}
-.socials a
-{
-  text-decoration: none;
-  color: #fff;
-}
-.socials a i
-{
-  font-size: 1.1rem;
-  transition: color .4s ease;
-}
-.socials a:hover i
-{
-  color: rgb(5, 1, 255);
-}
-
 .footer-bottom
 {
   background: #000;
