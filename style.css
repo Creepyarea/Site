@@ -1,7 +1,7 @@
 .tabel
 {
     width: 100%;
-    background: linear-gradient(235deg,#7500fa,#010615,#0105e7);
+    background: linear-gradient(235deg,#7500fa,#010924,#0105e7);
     padding: 0;
     height: 150px;
 
@@ -228,12 +228,12 @@ overflow-x: hidden;
 }
 ::-webkit-scrollbar-thumb
 {
-    background: linear-gradient(45deg,#04fff2,#000000, #2600ff);
+    background: linear-gradient(45deg,#04cdff,#00000c, #8c00ff);
     border-radius: 5px;
 }
 footer
 {
-  background: rgb(35, 0, 133);
+  background:linear-gradient(235deg,#c300ff,#010e35,#00d9ff);
   height: 150px;
   width: 100vw;
   font-family: "Open Sans";
@@ -245,6 +245,7 @@ footer
   align-items: center;
   justify-content: center;
   text-align: center;
+
 }
 .footer-content h3
 {
@@ -259,6 +260,7 @@ footer
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 1em 0 3em 0;
 }
 .socials li
 {
