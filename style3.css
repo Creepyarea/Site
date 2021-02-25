@@ -47,11 +47,7 @@
 }
 .link a:nth-child(3)
 {  
-  filter: hue-rotate(900deg);
-}
-.link a:nth-child(4)
-{  
-  filter: hue-rotate(-300deg);
+  filter: hue-rotate(-980deg);
 }
 .link a:hover
 {

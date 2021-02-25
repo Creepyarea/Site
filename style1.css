@@ -32,13 +32,17 @@
    position: relative;
    padding: 10px 30px;
    margin: 0 15px;
-   color: #21ebff;
+   color: #09c8da;
    text-decoration: none;
    text-transform: uppercase;
    font-size: 20px;
    overflow: hidden;
    transition: 0.5s;
    -webkit-box-reflect: below 1px linear-gradient(transparent,#0003);
+}
+.link a:nth-child(1)
+{
+  filter: hue-rotate(-980deg);
 }
 .link a:nth-child(2)
 {  
@@ -47,10 +51,6 @@
 .link a:nth-child(3)
 {  
   filter: hue-rotate(900deg);
-}
-.link a:nth-child(4)
-{  
-  filter: hue-rotate(-300deg);
 }
 .link a:hover
 {
