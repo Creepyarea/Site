@@ -228,12 +228,12 @@ overflow-x: hidden;
 }
 ::-webkit-scrollbar-thumb
 {
-    background: linear-gradient(45deg,#04cdff,#00000c, #8c00ff);
+    background: linear-gradient(45deg,#0804ff,#00000c, #8c00ff);
     border-radius: 5px;
 }
 footer
 {
-  background:linear-gradient(235deg,#c300ff,#010e35,#00d9ff);
+  background:linear-gradient(235deg,#0400ff,#010e35,#d900ff);
   height: 150px;
   width: 100vw;
   font-family: "Open Sans";
