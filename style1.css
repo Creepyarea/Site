@@ -116,7 +116,7 @@ min-height: 100vh;
 }
 .video
 {
-  position: relative;
+  position: absolute;
   top: 130px;
   left: 0;
   width: 100%;
