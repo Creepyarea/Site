@@ -114,32 +114,6 @@ background-repeat: no-repeat;
 overflow-x: hidden;
 min-height: 100vh;
 }
-.video
-{
-  position: absolute;
-  top: 130px;
-  left: 0;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 40px 10px;
-  z-index: 1000;
-}
-.video .logo
-{
-  max-width: 120px;
-}
-.video .toggle
-{
-  max-width: 60px;
-  cursor: pointer;
-}
-.video .logo img,
-.video .toggle img
-{
-  max-width: 100%;
-}
 .benner
 {
    position: relative;
@@ -252,37 +226,6 @@ min-height: 100vh;
   cursor: pointer;
   filter: invert(1);
   max-width: 150px;
-}
-@media (max-width: 991px)
-{
-  header{
-    padding: 20px 50px;
-  }
-  header{
-    padding: 20px 50px;
-  }
-  header .logo
-  {
-    max-width: 80px;
-  }
-  header .toggle
-  {
-    max-width: 40px;
-  }
-  .banner
-  {
-    padding: 100px 50px;
-  }
-  .banner .content
-  {
-    font-weight: 400;
-    font-size: 2em;
-    letter-spacing: 0.05em;
-  }
-  .banner .content
-  {
-    font-size: 1em;
-  }
 }
 ::-webkit-scrollbar
 {
