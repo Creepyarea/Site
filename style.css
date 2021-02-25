@@ -245,7 +245,6 @@ footer
   align-items: center;
   justify-content: center;
   text-align: center;
-
 }
 .footer-content h3
 {
@@ -260,8 +259,6 @@ footer
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 1rem 0 3rem 0;
-
 }
 .socials li
 {
